@@ -7,7 +7,7 @@ var webimhandler = require('webim_handler.js');
 var tls = require('tls.js');
 var encrypt = require('encrypt.js');
 
-var serverDomain = '',		// 后台域名
+var serverDomain = 'https://live.dreamreality.cn',		// 后台域名
 	heart = '',				// 判断心跳变量
 	requestSeq = 0,			// 请求id
 	requestTask = [],		// 请求task
@@ -17,8 +17,8 @@ var serverDomain = '',		// 后台域名
 		userName: '',		// 用户昵称
 		userAvatar: '',		// 用户头像URL
 		userSig: '',		// IM登录凭证
-		sdkAppID: '',		// IM应用ID
-		accountType: '',	// 账号集成类型
+    sdkAppID: '1400130117',		// IM应用ID
+    accountType: '35893',	// 账号集成类型
 		accountMode: 0,		//帐号模式，0-表示独立模式，1-表示托管模式
 		token: ''			//登录RoomService后使用的票据
 	},

@@ -3,7 +3,7 @@
 	"svr": "./server",
 	"miniprogramRoot": "./wxlite",
 	"qcloudRoot": "./server",
-	"appid": "xxxxxxxxxxxxx",
+	"appid": "wx5e53c3e902b9a469",
 	"projectname": "rtcroom1.2",
 	"setting": {
 		"urlCheck": false,
@@ -12,6 +12,6 @@
 		"minified": true,
 		"newFeature": true
 	},
-	"libVersion": "1.9.91",
+	"libVersion": "2.2.3",
 	"condition": {}
 }
